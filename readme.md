@@ -2,6 +2,10 @@ GoMemoryView
 ====
 Golang内存视图查看器,可以动态输出go语言各类型变量在内存中的数据状态及布局.
 
+### todo
+- 切片类型底层数组输出
+- Map类型输出 
+
 ```go
 	a := 10
 	fmt.Println(MemView(&a))
