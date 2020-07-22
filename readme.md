@@ -6,6 +6,7 @@ Golang内存视图查看器,可以动态输出go语言各类型变量在内存�
 - 切片类型底层数组输出
 - Map类型输出 
 
+### 类型演示
 ```go
 	a := 10
 	fmt.Println(MemView(&a))
